@@ -128,7 +128,7 @@
   margin-left: 2rem; }
 
 .card__title {
-  color: black !important;
+  color: red !important;
   padding-top: 1rem !important; }
 
 .card {
@@ -164,7 +164,9 @@
   padding-bottom: 4rem; }
 
 .mapaUno {
-  padding-bottom: 5rem; }
+  padding-bottom: 5rem;
+  width: 100%;
+  height: 400px; }
 
 .mapaUno:hover {
   transform: scale(1.2);
@@ -172,8 +174,8 @@
 
 @media (max-width: 768px) {
   .mapaUno {
-    height: 250px;
-    width: 300px; } }
+    height: 300px;
+    width: 350px; } }
 
 /*sobrenosotros*/
 .grilla {

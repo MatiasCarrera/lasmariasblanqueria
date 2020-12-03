@@ -137,9 +137,9 @@
   background-color: whitesmoke; }
 
 button {
-  background-color: #5858e4;
+  background-color: #5858e4 !important;
   margin-right: 5rem !important;
-  color: white; }
+  color: white  !important; }
 
 .comprar {
   text-align: right !important; }

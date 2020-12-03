@@ -163,9 +163,8 @@ font-family: 'Arvo', serif;
    
 }
 .card__title{
-    color: red !important;
-    padding-top: 1rem !important;
-    
+    color: black;
+    padding-top: 1rem !important;   
 }
 .card{
     padding-right: 20px !important ;
@@ -198,6 +197,8 @@ font-family: 'Arvo', serif;
     .botonComprar{
         margin-right: 0 !important;
         margin-bottom: 0.5rem;
+        background-color: rgb(88, 88, 228) !important;
+        color: white  !important;
     }
     
     .comprar{

@@ -157,12 +157,9 @@ font-family: 'Arvo', serif;
     padding-left: 0 !important;
 }
 .card__body{
-   /* margin: 1rem !important;*/
     font-size: large;
-    padding: 0 !important;
-    margin: 0 !important;
     text-align: left !important;
-    margin-left: 3rem;
+    margin-left: 2rem;
    
 }
 .card__title{
@@ -173,8 +170,18 @@ font-family: 'Arvo', serif;
 .card{
     padding-right: 20px !important ;
     width: 100% !important;
-    margin: 0 !important;
-   background-color: whitesmoke;
+    background-color: whitesmoke;
+}
+
+
+
+button{
+    background-color: rgb(88, 88, 228);
+    margin-right: 5rem !important;
+    color: white  ;
+}
+.comprar{
+    text-align: right !important;
 }
 
 @media (max-width: 768px){
@@ -183,15 +190,20 @@ font-family: 'Arvo', serif;
         margin: 0 !important;
         margin-left: 10% !important;
     }
-}
+    .card__body{
+        font-size: large;
+        text-align: center !important;
+        margin-left: 0;
+    }
+    button{
+        margin-right: 0 !important;
+        margin-bottom: 0.5rem;
+    }
+    
+    .comprar{
+        text-align: center !important;
 
-button{
-    background-color: rgb(88, 88, 228);
-    margin-right: 5rem !important;
-    color: white;
-}
-.comprar{
-    text-align: right !important;
+    }
 }
 
 /*envios*/

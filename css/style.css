@@ -123,12 +123,9 @@
   padding-left: 0 !important; }
 
 .card__body {
-  /* margin: 1rem !important;*/
   font-size: large;
-  padding: 0 !important;
-  margin: 0 !important;
   text-align: left !important;
-  margin-left: 3rem; }
+  margin-left: 2rem; }
 
 .card__title {
   color: black !important;
@@ -137,14 +134,7 @@
 .card {
   padding-right: 20px !important;
   width: 100% !important;
-  margin: 0 !important;
   background-color: whitesmoke; }
-
-@media (max-width: 768px) {
-  .card {
-    width: 80% !important;
-    margin: 0 !important;
-    margin-left: 10% !important; } }
 
 button {
   background-color: #5858e4;
@@ -153,6 +143,21 @@ button {
 
 .comprar {
   text-align: right !important; }
+
+@media (max-width: 768px) {
+  .card {
+    width: 80% !important;
+    margin: 0 !important;
+    margin-left: 10% !important; }
+  .card__body {
+    font-size: large;
+    text-align: center !important;
+    margin-left: 0; }
+  button {
+    margin-right: 0 !important;
+    margin-bottom: 0.5rem; }
+  .comprar {
+    text-align: center !important; } }
 
 /*envios*/
 .pEnvios {

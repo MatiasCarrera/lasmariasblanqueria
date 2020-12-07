@@ -85,7 +85,7 @@
   font-family: 'Arvo', serif; }
 
 .container__item:hover {
-  color: blanchedalmond;
+  color: #cae0ca;
   transform: scale(1.2) translateX(18px);
   transition: 2s; }
 

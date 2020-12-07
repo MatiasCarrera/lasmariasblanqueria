@@ -3,7 +3,7 @@
     font-family: 'Lobster', cursive;
     font-size: x-large;
     align-items: center; 
-    padding-top: 8rem;
+    padding-top: 3rem;
     background-image: url(../Img/morocan.png);
     background-position: center;
     background-repeat: no-repeat;  
@@ -102,7 +102,7 @@
     justify-content: center;
     margin: 0;
     padding-bottom: 4rem;
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 .container__item{
     color: grey;
@@ -140,10 +140,11 @@
 
 /*productos*/
 
+
 .listaProd{
 list-style-type: disc;  
 margin: 0;
-padding-top: 5%;
+padding-top: 3rem;
 padding-bottom: 5%;
 font-family: 'Arvo', serif;
 }
